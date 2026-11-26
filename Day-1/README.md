@@ -37,6 +37,3 @@ Day 1 focuses on understanding Large Language Models (LLMs), how they work, and 
 - Explored a prompt-safety model and its numerical output.
 
 ---
-
-**Program:** AI Agents Workshop – Level 1  
-**Day:** 1
