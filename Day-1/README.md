@@ -1,11 +1,11 @@
 # Day 1 – LLM Fundamentals and First API Call
 
 ## Overview
-Day 1 focuses on understanding Large Language Models (LLMs), how they work, and how to interact with an LLM using Python and APIs.
+Day 1 focuses on understanding Large Language Models (LLMs), how they work, and how to interact with them using Python, APIs, and LangChain.
 
 ## Topics Covered
-- Introduction to Artificial Intelligence and LLMs.
-- How Large Language Models work.
+- Introduction to Large Language Models (LLMs).
+- How LLMs generate responses.
 - Understanding Tokens and Tokenization.
 - Temperature and its effect on AI responses.
 - LLM Memory and Context Windows.
@@ -14,20 +14,29 @@ Day 1 focuses on understanding Large Language Models (LLMs), how they work, and 
 - Introduction to API integration.
 
 ## Practical Implementation
-- Set up an LLM API connection using Python.
-- Send prompts to an LLM and receive responses.
-- Experiment with different temperature values.
-- Explore token usage and API responses.
-- Build a basic AI-powered bakery assistant.
+- Installed and configured the LangChain Groq package.
+- Connected to the Groq API using an API key stored in Google Colab Secrets.
+- Initialized an LLM using `ChatGroq`.
+- Created an AI-powered bakery assistant using a system prompt.
+- Generated responses using `llm.invoke()`.
+- Experimented with the Llama Prompt Guard model using a sample prompt.
 
 ## Technologies Used
 - Python
 - Google Colab
-- LLM APIs
+- LangChain
 - Groq API
-- GPT-OSS-20B
+- GPT-OSS-120B
+- Llama Prompt Guard
 
-## Learning Outcome
-Understood the fundamentals of LLMs and learned how to connect and interact with an existing language model using Python and API integration.
+## Learning Outcomes
+- Understood the fundamentals of LLMs.
+- Learned how to connect to an LLM using an API.
+- Learned how to use LangChain with Groq.
+- Created a basic AI-powered bakery assistant.
+- Explored a prompt-safety model and its numerical output.
 
 ---
+
+**Program:** AI Agents Workshop – Level 1  
+**Day:** 1
